@@ -1,0 +1,290 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+	background :#6b6863;
+}
+#keseluruhan {
+	width: 900px;
+	margin:20px auto;
+	padding-bottom: 20px;
+	background-color: white;
+}
+header{
+	text-decoration: none;
+	width: 900px;
+	display: flex;
+	justify-content: center;
+
+}
+.menu {
+	padding: 30px 12px 30px 12px;
+	margin-top:13px 13px 30px 13px;
+	font-size: 12px;
+	list-style: none;
+}
+.menu li{
+	display: inline;
+}
+.menu li a{
+	text-decoration: none;
+	color: black;
+	padding: 30px 12px 30px 12px;
+	margin:13px 0px 30px 0px;
+}
+.menu li a:hover{
+	background-color:#FECE00;
+	color: white;
+
+}
+.menu li a#active {
+	background-color:#FECE00;
+	color: white;
+}
+#logo {
+	text-align: center;
+}
+
+#picture {
+	text-align: center;
+	width: 900px;
+	margin-bottom: 40px;
+}
+#garis{
+	text-align: center;
+	margin-left: 49px;
+	margin-right: 49px;
+	justify-content: center;
+}
+#kump_pilihan{
+	margin:7px 0px 20px 28px;
+	
+}
+#pilihanA {
+	width:258px;
+	margin:7px 0px 20px 20px;
+	float:left;
+	height: 260px;
+	background-color: #47403b;
+	color: white;
+}
+	#isiA{
+		padding: 25px 25px 20px 25px;
+		text-align: center;
+
+	}
+		#isiB{
+			margin-left:25px; 
+		}
+			#isiC{
+				font-size: 12px;
+				padding: 25px;
+				text-align: justify;
+				font-family: "calibri";
+				line-height: 18px;
+			}
+			#tombolA {
+				background-color: #FECE00;
+				border:none;
+				cursor: pointer;
+				padding: 6px 12px;
+				color: white;
+				font-weight: bold;
+				margin:35px 25px; 
+			}	
+#pilihanB {
+	width:258px;
+	margin:7px 0px 20px 15px;
+	float:left;
+	height: 260px;
+	background-color:#999385;
+	color: white;
+}
+	#isiAA{
+		padding: 25px 25px 20px 25px;
+		text-align: center;
+
+	}
+		#isiBB{
+			margin-left:25px; 
+		}
+			#isiCC{
+				font-size: 12px;
+				padding: 25px;
+				text-align: justify;
+				font-family: "calibri";
+				line-height: 18px;
+			}
+			#tombolAA {
+				background-color:#e7e7e7;
+				border:none;
+				cursor: pointer;
+				padding: 6px 12px;
+				color: #999385;
+				font-weight: bold;
+				margin:0px 25px; 
+			}
+#pilihanC {
+	width:258px;
+	margin:7px 0px 50px 15px;
+	float:left;
+	height: 260px;
+	background-color: #c4baa4;
+	color: white;
+}
+	#isiAAA{
+		padding: 25px 25px 20px 25px;
+		text-align: center;
+
+	}
+		#isiBBB{
+			margin-left:25px; 
+		}
+			#isiCCC{
+				font-size: 12px;
+				padding: 25px;
+				text-align: justify;
+				font-family: "calibri";
+				line-height: 18px;
+			}
+			#tombolAAA {
+				background-color:#e7e7e7;
+				border:none;
+				cursor: pointer;
+				padding: 6px 12px;
+				color:  #c4baa4;
+				font-weight: bold;
+				margin:18px 25px; 
+			}
+#sub_judul{
+	margin: 0 48px;
+}
+#h4_A {
+	float: left;
+	margin: 0 50px 0 0;
+	font-size: 16px;
+	font-family: "calibri";
+}
+#h4_B {
+	float: left;
+	margin: 0 195px 0 0;
+	font-size: 16px;
+	font-family: "calibri";
+}
+#h4_C {
+	font-size: 16px;
+	font-family: "calibri";	
+}
+	#garisZ{
+		margin: 30px 0px;
+		}
+		#lineA {
+			float: left;
+			margin: 0 20px 0 0;
+		}
+			#lineB {
+				float: left;
+				margin: 0 20px 0 0;
+			}
+
+#list{
+	color:black;
+	font-size: 11px;
+	margin:0 60px 40px 65px;
+	line-height:25px;
+	float: left;
+	font-family: "calibri";
+}
+	#pict{
+		margin: 0px 10px 0px 0px;
+		float: left;
+	}
+		#text{			
+			width: 25%;
+			float: left;
+			margin-right: 20px;
+
+		}
+			#textA{
+				font-size: 13px;
+			margin-bottom:20px;
+			font-family: "calibri";
+			}
+				#textB{
+					font-size: 12px;
+					font-family: "calibri";
+					line-height: 15px;
+					text-align: justify;
+				}
+				#tombolAAAA {
+					background-color: #c4baa4;
+					border:none;
+					cursor: pointer;
+					padding: 6px 12px;
+					color:  white;
+					font-weight: bold;
+					margin:32px 0px; 
+				}
+				#text2{			
+					width: 22%;
+					float: left;
+
+				}
+					#text2A{
+						font-size: 13px;
+						margin-bottom:20px;
+						font-family: "calibri";
+						color: #FECE00;
+					}
+						#text2B{
+							font-size: 12px;
+							font-family: "calibri";
+							line-height: 15px;
+							text-align: justify;
+						}
+							#tombolAAAAA {
+								background-color: #c4baa4;
+								border:none;
+								cursor: pointer;
+								padding: 6px 12px;
+								color:  white;
+								font-weight: bold;
+								margin:32px 0px; 
+						}
+
+
+#gambar_bawah {
+	margin:12px 50px;
+	
+}
+#imgA{
+	margin:0px 16px 0 0;
+	width: 390px;
+}
+#imgB{
+	width: 390px;
+}
+footer{
+	padding:30px 20px 5px 20px;
+}
+#a{
+	float: left;
+	margin: 0 0 0 300px;
+}
+#b{
+	color:#FECE00;
+}
+#top_up{
+	background-color: yellow;
+	margin:0 0 0 1200px ;
+	width: 70px;
+	padding: 10px;
+	border:none;
+	cursor: pointer;
+}
+#top_up a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}			
